@@ -1,8 +1,101 @@
 <!DOCTYPE html>
-<html>
-<head><title>KonnectDX</title></head>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KonnectDX - Digital Experience Consulting</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; line-height: 1.6; background: #f9fafc; color: #333; }
+    header {
+      background: linear-gradient(135deg, #004aad, #0076d6);
+      color: white; padding: 3rem 1rem; text-align: center;
+    }
+    header h1 { font-size: 2.5rem; font-weight: 700; }
+    header p { margin-top: .5rem; font-size: 1.1rem; }
+    nav { margin-top: 1rem; }
+    nav a { margin: 0 12px; text-decoration: none; color: white; font-weight: 600; }
+    section { padding: 3rem 1.5rem; max-width: 1000px; margin: auto; }
+    section h2 { font-size: 1.8rem; margin-bottom: 1rem; color: #004aad; }
+    section p { margin-bottom: 1rem; font-size: 1rem; }
+    ul { margin-left: 20px; }
+    ul li { margin-bottom: 0.6rem; }
+    .card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; }
+    .card {
+      background: white; border-radius: 12px; padding: 1.5rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08); transition: 0.3s ease;
+    }
+    .card:hover { transform: translateY(-6px); box-shadow: 0 6px 15px rgba(0,0,0,0.12); }
+    footer {
+      background: #004aad; color: white; text-align: center;
+      padding: 2rem 1rem; margin-top: 3rem; font-size: 0.9rem;
+    }
+    footer a { color: #ffd; text-decoration: none; font-weight: 600; }
+  </style>
+</head>
 <body>
-  <h1>Welcome to KonnectDX!</h1>
-  <p>This site is live on GitHub Pages.</p>
+
+  <header>
+    <h1>KonnectDX</h1>
+    <p>More than Connecting – Knowledge, Key Transformation & Kinetic Change</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#capabilities">Capabilities</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      At KonnectDX, we help enterprises unlock the full potential of the Adobe Experience Cloud.  
+      We don’t just connect systems — we <strong>Konnect</strong> with Knowledge, Key insights, and Kinetic energy  
+      to drive digital transformation.
+    </p>
+  </section>
+
+  <section id="capabilities">
+    <h2>Our Capabilities</h2>
+    <div class="card-grid">
+      <div class="card">
+        <h3>Adobe Experience Manager (AEM)</h3>
+        <p>Sites & Assets as a Cloud Service. Deliver scalable, cloud-native content management with seamless integrations.</p>
+      </div>
+      <div class="card">
+        <h3>Adobe Workfront & Fusion</h3>
+        <p>Streamline workflows, automate processes, and connect your teams with powerful integrations.</p>
+      </div>
+      <div class="card">
+        <h3>Adobe Journey Optimizer</h3>
+        <p>Design, orchestrate, and deliver personalized, real-time customer journeys across channels.</p>
+      </div>
+      <div class="card">
+        <h3>Customer Journey Analytics</h3>
+        <p>Unify data across platforms and generate actionable insights for better decision-making.</p>
+      </div>
+      <div class="card">
+        <h3>Edge Delivery Services</h3>
+        <p>Faster, modern web delivery with Edge-based content workflows and Universal Editor integration.</p>
+      </div>
+      <div class="card">
+        <h3>Adobe App Builder & GenAI</h3>
+        <p>Extend Adobe’s capabilities with custom apps and GenAI-powered experiences for the future.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>
+      Interested in collaborating or learning more?  
+      Reach out at <a href="mailto:info@konnectdx.com">info@konnectdx.com</a>
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2025 KonnectDX. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>
